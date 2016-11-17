@@ -1,0 +1,196 @@
+/**
+@author Gihan Madushanka Ubayawardana
+**/
+html,body{
+	height: 100%; 
+	width: 100%; 
+	margin: 0;
+}
+.main-container{
+	width: 80%;
+	height: 810px;
+	background-color: #FF0DFF;	
+}
+
+.black-color-container{
+	height: 100%;
+    margin-right: 3%;
+	background-color: #000000;
+}
+
+
+
+.row1-col1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 28%;   
+    width: 22%;    
+    background-color: #A5FF24;
+}
+
+.row1-col2{
+	position: absolute;
+    left: 23%;
+}
+.row1-col3{
+	position: absolute;
+    top: 0;
+    left: 52%;
+    height: 28%;
+    width: 24%;  
+    margin-right: 3%;
+    background-color: #ED550C;
+}
+
+.second-row{
+	position: relative;
+	top: 24.4%;
+}
+
+
+.row2-col1-part1{
+	height: 181px;   
+    width: 9%;    
+    background-color: #44F719;
+    border: 5px solid #F7F429;
+    
+  
+}
+
+.row2-col1-part2{	
+	height: 40%;   
+    width: 11%;     
+    margin-top: 2%;   
+    background-color: #ED550C;   
+}
+
+.row2-col2-part1{
+	height: 160%;   
+    width: 45%;     
+    background-color: blue;
+    position: absolute;
+    top: 0%;
+    left: 15%;
+    border: 8px solid #A8E161;
+
+}
+
+.row2-col3-part1{
+	height: 88%;
+	width: 30%;	
+	position: absolute;
+    top: 0%;
+    left: 67%;
+	margin-right: 3%;
+	background-color: #06CF3E;
+	display: flex;
+}
+
+#img-second{
+	margin: auto;
+}
+
+.row2-col1-part2{
+	position: absolute;
+	top: 100%;
+	left: 0%;
+	height: 110%;   
+    width: 10%;    
+    background-color: #ED550C;    
+  
+}
+
+.row2-col3-part2{
+    height: 75%;
+    width: 30%;
+    position: absolute;
+    top: 94%;
+    left: 67%;	
+}
+
+#pepsi-img-first{
+	position: absolute;
+	top: 0%;
+	left: 10%;
+}
+
+#pepsi-img-second{
+	position: absolute;
+	top: 0%;
+	left: 50%;
+}
+
+.row2-col2-part2{
+	height: 47%;
+    width: 17%;
+    position: absolute;
+    top: 176%;
+    left: 15%;
+    background-color: #44C1CF;
+
+}
+
+.row2-col3-part3{
+	height: 47%;
+    width: 17%;
+    position: absolute;
+    top: 176%;
+    left: 78%;
+    background-color: #44C1CF;
+    border: 5px solid #F7F429;
+
+}
+
+.third-row{
+	position: relative;
+	top: 55%;
+}
+
+.row3-col1{
+	height: 167px;   
+    width: 10%;    
+    background-color: blue;      
+  
+}
+
+.row3-col2{
+	height: 167px;   
+    width: 17%;
+    position: absolute;
+    background-color: #ED550C;   
+    left: 15%;
+    top: 2%;
+}
+
+#google-img{
+	float:right;
+}
+
+.row3-col3{
+	height: 104px;
+    width: 31%;
+    position: absolute;
+    background-color: #D6112E;
+    left: 40%;
+    top: 2%;
+}
+
+.row3-col4{
+	height: 167px;
+    width: 18%;
+    position: absolute;
+    background-color: #06CF3E;
+    left: 78%;
+    top: 2%;
+}
+
+#house-img{
+	display: block;
+    margin-top: 15%;
+    margin-left: 20%;
+}
+
+
+
+

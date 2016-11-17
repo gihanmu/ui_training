@@ -1,0 +1,119 @@
+/**
+@author Gihan Madushanka Ubayawardana
+https://github.com/gihanmu
+**/
+
+html,body{
+	height: 100%;
+}
+
+#plantation-details{
+	text-decoration: underline;
+	position: relative;
+	left: 8%;
+}
+
+.main-wrapper{
+	position: relative;
+	left: 5%;
+	width: 90%;	
+	height: 75%;
+	border:1px solid black;
+	border-radius: 2% 2%;
+	margin-top: -1%;
+}
+
+.first-wrapper{
+	position: relative;
+	left: 2%;
+	top: 4%;
+	width: 96%;
+	height: 20%;
+	border:1px solid #A3A2A7;
+	border-radius: 5% 5%;
+	background-color: #F1EEFF;
+	font-size: 0.8em; /** text in this wrapper will be this size **/
+
+}
+
+.pname-div{
+	position: relative;
+	width: 30%;
+	left: 2%;
+	top: 30%;
+}
+
+.name-key{
+	font-weight: bold;
+
+}
+
+.name-value{
+	position: relative;
+	left: 20%;
+}
+
+.cropname-div{
+	position: absolute;
+	width: 30%;
+	left: 40%;
+	top: 30%;
+}
+
+.area-div{
+	position: relative;
+	width: 30%;
+	left: 2%;
+	top: 50%;
+}
+
+.area-value{
+	position: relative;
+	left: 38%;
+}
+
+.active-div{
+	position: absolute;
+    width: 30%;
+    left: 53%;
+    top: 62%;
+}
+
+.second-wrapper{
+	position: relative;
+    left: 2%;
+    top: 5%;
+    width: 96%;
+    height: 30%;
+}
+.plot-list-wrapper{
+	height: 15%;
+	border-bottom: 1px solid black;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+thead{
+	background-color: #F1EEFF;
+}
+
+.plot-list-tbl{
+	width:100%;
+	margin-top: 2%;
+	font-size: 0.8em;
+}
+
+.last-row{
+	background-color:  #A3A2A7;	
+	font-weight: bold;
+}
+
+.bold-text{
+	font-weight: bold;
+}
+
+
