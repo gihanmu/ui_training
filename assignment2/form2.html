@@ -1,0 +1,389 @@
+<!-- https://github.com/gihanmu/ui_training/tree/master/assignment2-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form 2</title>
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+<body>
+	  <div class="blur"></div>
+
+
+	  <div class="nested-wrapper center-modal">
+				<div class="modal-header">
+       				<p id="">Remarks List</p>
+    			</div> 
+    		<div class="table-wrapper">
+    		 <table class="plot-list-tbl">
+	              <thead>
+	               <tr>
+	                <th>Remark</th>   
+	                <th>Created By</th>               				
+      				<th>Creadte Date</th>
+      				<th>Action</th>
+	              </tr>
+	              </thead>
+	              <tbody>
+	              <tr>
+	                <td>ABC doc</td>
+      				<td>James Roid</td>
+      				<td>20/11/2016</td>
+      				<td><a href="#">Edit</a>&nbsp;<a href="#">Remove</a></td>
+	              </tr>
+	              </tbody>
+				</table>
+				</div>
+
+		</div>
+	<!-- plantation details -->
+	<p id="plantation-details">Plantation Details</p>
+	<div class="main-wrapper">
+		<div class="first-wrapper">
+			<div class="pname-div">
+				<span class="name-key">Plantation Name:</span>
+				<span class="name-value">PL001-001</span>
+			</div>
+
+			<div class="cropname-div">
+				<span class="name-key">Crop Name:</span>
+				<span class="name-value">Crop 1</span>
+			</div>
+
+			<div class="area-div">
+				<span class="name-key">Area:</span>
+				<span class="area-value">Area 01</span>
+			</div>
+
+			<div class="active-div">
+				<label><input type="checkbox" name="checkbox" value="value" checked="">Is Active</label>
+			</div>
+			
+		</div>
+
+		<!-- plot list -->
+		<div class="second-wrapper">
+			<div class="plot-list-wrapper">
+				<p class="bold-text">Plot List</p>
+			</div>
+			<div >
+				<table class="plot-list-tbl">
+					<thead>
+						<tr>
+							<th width="10" height="30">Plot No</th>
+							<th width="20" height="30">Year Planted</th>
+							<th width="20" height="30">No. of Trees</th>
+							<th width="10" height="30">Extent</th>
+							<th width="10" height="30">Unit of Measure (Extent)</th>
+							<th width="20" height="30">Life Span (Years)</th>
+							<th width="20" >Revenue</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>001</td>
+							<td>2004</td>
+							<td>10</td>
+							<td>3</td>
+							<td>acre</td>
+							<td>25</td>
+							<td>2,000,000.00</td>
+						</tr>
+
+						<tr>
+							<td>002</td>
+							<td>2007</td>
+							<td>17</td>
+							<td>5</td>
+							<td>acre</td>
+							<td>28</td>
+							<td>3,000,000.00</td>
+						</tr>
+
+						<tr class="last-row">
+							<td>Total</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>5,000,000.00</td>
+						</tr>
+
+					</tbody>
+				</table>
+			</div>
+
+			<div class="plot-list-wrapper">
+				<p class="bold-text">Plot Life Cycle List</p>
+			</div>	
+
+				<div >
+				<table class="plot-list-tbl">
+					<thead>
+						<tr>
+							<th >Plot No</th>
+							<th >No. of Trees</th>
+							<th >Growth Rate of No of Trees (%)</th>
+							<th>No of Yields per Tree</th>
+							<th >Growth Perecentage of No of Yields per Tree (%)</th>
+							<th>Rejection Percentage (%)</th>
+							<th >Life Cycle</th>
+							<th >Life Span of Life Cycle</th>
+							<th >Selling Price (LKR)</th>
+							<th>Growth Rate of Selling Price (%)</th>
+							<th>Revenue</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>001</td>
+							<td>100</td>
+							<td>3</td>
+							<td>125</td>
+							<td>2</td>
+							<td>1</td>
+							<td>Growth Stage</td>
+							<td>5</td>
+							<td>1200.00</td>
+							<td>2</td>
+							<td>2,000,000.00</td>
+						</tr>
+
+						<tr>
+							<td>002</td>
+							<td>120</td>
+							<td>4</td>
+							<td>154</td>
+							<td>2</td>
+							<td>1</td>
+							<td>Maturity Stage</td>
+							<td>5</td>
+							<td>1750.00</td>
+							<td>2</td>
+							<td>3,000,000.00</td>
+						</tr>
+
+						<tr class="last-row">
+							<td>Total Revenue</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>5,000,000.00</td>
+						</tr>
+
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<!-- plot list -->
+	</div>
+	<!-- plantation details -->
+
+	<div class="tabs-wrapper">
+      <div class="tab">Active Market</div>
+      <div class="tab selected">Recent Transaction</div>
+      <div class="tab">Discounted Cash Flow</div>
+      <div class="tab">Disclosure</div>
+    </div>
+
+    <div class="outer-wrapper">
+      <div class="inside-wrapper">    
+       		<div class="header-wrapper">
+       			<p>Recent Transaction Details</p>
+       		</div>
+       		<div class="input-wrapper">
+       			<span class="label">Land Measure Unit : <span class="required">*</span></span>
+       			<input type="text" name="" value="acre">
+       		</div>
+       		<div class="input-wrapper">
+       			<span class="label">Price of Comparable Land : <span class="required">*</span></span>
+       			<input type="text" name="" value="250,000,00">
+       		</div>
+       		<div class="input-wrapper">
+       			<span class="label">Price of Uncultivated Land : <span class="required">*</span></span>
+       			<input type="text" name="" value="100,000.00">
+       		</div>
+       		<div class="input-wrapper">
+       			<span class="label">Price of Biological Assets in Comparable Area: </span>
+       			<span class="label-value">700.00</span>
+       		</div>
+       		<div class="input-wrapper">
+       			<span class="label">Adjustment for Location & Condition (%): <span class="required">*</span></span>
+       			<input type="text" name="" value="3">
+       		</div>
+       		<div class="input-wrapper">
+       			<span class="label">Adjustment for Location & Condition (Absolutte Value): </span>
+       			<span class="label-value">150.00</span>
+       		</div>
+       		<div class="input-wrapper">
+       			<span class="label">Value of Unit for Biological Assets: </span>
+       			<span class="label-value">100.00</span>
+       		</div>
+       		<div class="input-wrapper">
+       			<span class="label">No. of Units: <span class="required">*</span></span>
+       			<input type="text" name="" value="500">
+       		</div>
+       		<div class="input-wrapper">
+       			<span class="label">Total Value of biological assets: </span>
+       			<span class="bold-text">20,000.00</span>
+       		</div>
+      </div>
+
+      
+      <div class="sub-outer-wrapper">
+      		<div class="header-wrapper">
+		       			<p>Proxy Plantation Details</p>
+		    </div>  
+	      	<div class="inside-wrapper top-2">	
+		      	<div class="header-wrapper">
+			       			<p>Plantation Details</p>
+			    </div>  	      	     
+		   		<div class="inline-input-wrapper">
+		   			<span class="inline-label">Plantation Name: <span class="required">*</span></span>
+		   			<input type="text" name="" value="PL-001">
+		   		</div>
+		   		<div class="inline-input-wrapper">
+		   			<span class="inline-label">Location: <span class="required">*</span></span>
+		   			<input type="text" name="" value="Watawalla">
+		   		</div>
+		   		<div class="inline-input-wrapper">
+		   			<span class="inline-label">Area : <span class="required">*</span></span>
+		   			<input type="text" name="" value="Area 01">
+		   		</div>
+	      </div>
+
+	      	<div class="inside-wrapper top-2">	
+		      	<div class="header-wrapper">
+			       			<p>Plot Details</p>
+			    </div>  	      	     
+		   		<div class="inline-input-wrapper">
+		   			<span class="inline-label">Plot No: <span class="required">*</span></span>
+		   			<input type="text" name="" value="Plot-001">
+		   		</div>
+		   		<div class="inline-input-wrapper">
+		   			<span class="inline-label">Unit of measure of Extent::  <span class="required">*</span></span>
+		   			<input type="text" name="" value="acre">
+		   		</div>
+		   		<div class="inline-input-wrapper">
+		   			<span class="inline-label">Life Cycle: <span class="required">*</span></span>
+		   			<input type="text" name="" value="Maturity Stage">
+		   		</div>
+		   		<div class="inline-input-wrapper">
+		   			<span class="inline-label">Yields per Tree: <span class="required">*</span></span>
+		   			<input type="text" name="" value="100">
+		   		</div>
+		   		<div class="inline-input-wrapper">
+		   			<span class="inline-label">No of Trees : <span class="required">*</span></span>
+		   			<input type="text" name="" value="150">
+		   		</div>
+		   		<div class="inline-input-wrapper">
+		   			<span class="inline-label">Selling Price : <span class="required">*</span></span>
+		   			<input type="text" name="" value="100.00">
+		   		</div>
+		   		<div class="inline-input-wrapper">
+		   			<span class="inline-label">Extent : <span class="required">*</span></span>
+		   			<input type="text" name="" value="45">
+		   		</div>
+		   		<button class="block-btn blue-btn top-2 left-3">Extent</button>
+
+		   		<div class="nested-wrapper">
+		   				<div class="header-wrapper">
+			       			<p>Plot List</p>
+			    		</div> 
+			    		<div class="table-wrapper">
+			    		 <table class="plot-list-tbl">
+				              <thead>
+				               <tr>
+				                <th>Plot No</th>
+				                <th>Life Cycle</th>
+				                <th>No. of Trees</th>
+				                <th>Extent</th>
+				                <th>Unit of Measure (Extent)</th>
+				                <th>Yields per Tree</th>
+				                <th>Selling Price</th>
+				                <th>Action</th>
+				              </tr>
+				              </thead>
+				              <tbody>
+				              <tr>
+				                <td>001</td>
+				                <td>Maturity Stage</td>
+				                <td>100</td>
+				                <td>44</td>
+				                <td>acre</td>
+				                <td>25</td>
+				                <td>10,000.00</td>
+				                <td><a href="#">Edit</a>&nbsp;<a href="#">Remove</a></td>
+				              </tr>
+				              </tbody>
+          				</table>
+          				</div>
+		   		</div>
+	      </div>
+      </div>
+
+      <p class="left-3" id="remarks">Remarks</p>
+
+      	<div class="inside-wrapper top-2">	
+	      		      	     
+	   		<div class="inline-input-wrapper">
+	   			<span class="inline-label up-minus">Remarks: </span>
+	   			<textarea cols="20"></textarea>
+	   		</div>
+	   		<div class="inline-input-wrapper">
+	   			<span class="file-labels">Supporting Documents </span>
+	   			<input type="file" name="">
+	   		</div>
+	   		<div class="inline-input-wrapper">	   			
+	   		</div>
+	   		<div class="inline-input-wrapper">
+	   			<span class="file-labels">Supporting Documents </span>
+	   			<input type="file" name="">
+	   		</div>
+
+	   		<button class="block-btn blue-btn top-2 left-3">Add</button>
+
+	   				<div class="nested-wrapper">
+		   				<div class="header-wrapper">
+			       			<p>Remarks List</p>
+			    		</div> 
+			    		<div class="table-wrapper">
+			    		 <table class="plot-list-tbl">
+				              <thead>
+				               <tr>
+				                <th>Remark</th>   
+				                <th>Created By</th>               				
+                  				<th>Creadte Date</th>
+                  				<th>Action</th>
+				              </tr>
+				              </thead>
+				              <tbody>
+				              <tr>
+				                <td>ABC doc</td>
+                  				<td>James Roid</td>
+                  				<td>20/11/2016</td>
+                  				<td><a href="#">Edit</a>&nbsp;<a href="#">Remove</a></td>
+				              </tr>
+				              </tbody>
+          				</table>
+          				</div>
+
+		   			</div>
+
+		   		<button class="blue-btn top-2 left-3">Save</button>
+		   		<button class="blue-btn top-2">Cancel</button>
+
+		   		<div>
+		   			<button class="contact-us">CONTACT US</button>
+		   		</div>
+      </div>
+     
+    </div>
+</body>
+</html>
