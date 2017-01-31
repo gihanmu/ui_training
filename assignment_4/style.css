@@ -1,0 +1,199 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	font-family: Tahoma;
+	overflow-x: hidden;
+}
+section{
+	position: absolute;
+	width: 90%;
+	left: 5%;	
+
+
+	
+}
+
+ .section-4{
+	height: 40%;
+	background-image:url("images/1.jpg");
+
+}
+
+.section-4-container{	
+	height: 100%;	
+	left: 10%;
+}
+
+.section-4-box{
+	position: absolute;
+	height: 80%;
+	width: 25%;
+	border-bottom: 1px solid red;
+}
+
+#selerisque{
+	margin-left: 26%;
+}
+
+#elementum{
+	margin-left:52%;
+}
+
+.more-btn{
+	position: absolute;
+	top: 70%;
+	left: 33%;
+	width: 30%;
+	background-color: #000000;
+	border:1px solid red;
+	color: red;
+}
+
+.section-4-title{
+	position: absolute;
+	top: 50%;
+	width: 50%;
+	left: 26%;	
+	font-weight: bold;
+	color: #FFFFFF;
+
+}
+
+.section-5{
+	top:40%;
+	height: 40%;
+	background-color: #D3E0E5;
+}
+
+.section-5-tile-container{
+	position: absolute;
+	left: 10%;
+}
+
+.small-title{
+	color: #98160C;
+	font-size: 0.95em;
+
+}
+
+#sec-5-small-title{
+	margin-bottom: -3%;
+
+}
+
+.big-title{
+	font-size: 1.8em;
+	font-weight: bold;
+
+}
+
+.sec-5-list{
+	position: absolute;
+    top: 25%;
+    left: 8%;
+    font-size: 0.9em;
+}
+
+.sec-5-list li{
+	margin-bottom: 1%;
+}
+
+.section-6{
+	top: 80%;
+	height: 50%;
+	
+}
+
+#sec-6-small-title{
+	position: absolute;
+	left: 40%;
+	margin-bottom: -3%;
+}
+#sec-6-big-title{
+	position: absolute;
+	left: 40%;
+}
+
+.sec-6-btn-group{
+	position: absolute;
+	left: 25%;
+	top: 22%;
+}
+
+.sec-6-btn{	
+	border-bottom: 2px solid red;
+	margin: 1px
+}
+
+.sec-6-img-group{
+	position: absolute;
+    width: 60%;
+    height: 60%;
+    top: 36%;
+    left: 20%;
+    background-color: #000000;
+
+}
+
+#sec-6-img-1{
+	position: absolute;
+	width: 33.33%;
+	top: 0;
+	left: 0;
+	height: 50%;
+	border: 1px solid #FFFFFF;
+	background-color: #1B357D;
+}
+
+#sec-6-img-2{
+	position: absolute;
+	width: 33.33%;
+	top: 0;
+	left: 33.33%;
+	height: 50%;
+	border: 1px solid #FFFFFF;
+	background-color: #1B357D;
+}
+
+#sec-6-img-3{
+	position: absolute;
+	width: 33.33%;
+	top: 0;
+	left: 66.66%;
+	height: 50%;
+	border: 1px solid #FFFFFF;
+	background-color: #1B357D;
+}
+
+#sec-6-img-4{
+	position: absolute;
+	width: 33.33%;
+	top: 50%;
+	left: 0%;
+	height: 50%;
+	border: 1px solid #FFFFFF;
+	background-color: #1B357D;
+}
+
+#sec-6-img-5{
+	position: absolute;
+	width: 33.33%;
+	top: 50%;
+	left: 33.33%;
+	height: 50%;
+	border: 1px solid #FFFFFF;
+	background-color: #1B357D;
+}
+
+
+#sec-6-img-6{
+	position: absolute;
+	width: 33.33%;
+	top: 50%;
+	left: 66.66%;
+	height: 50%;
+	border: 1px solid #FFFFFF;
+	background-color: #1B357D;
+}
+
+
