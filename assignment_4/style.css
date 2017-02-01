@@ -1,3 +1,7 @@
+
+/**
+@author : Gihan Ubayawardana;
+**/
 html,body{
 	width: 100%;
 	height: 100%;
@@ -196,4 +200,66 @@ section{
 	background-color: #1B357D;
 }
 
+.section-7{
+	position: absolute;
+	height: 40%;	
+	top: 130%;
+	background-image:url("images/2.jpg");
+}
+
+#sec-7-small-title{
+	position: absolute;
+	left: 40%;
+	margin-bottom: -3%;
+	font-size: 0.8em;
+}
+#sec-7-big-title{
+	position: absolute;
+	left: 42%;
+	color: #FFFFFF;
+}
+
+.section-7-sub-sec{	
+	position: absolute;
+	height: 30%;
+	width: 20%;
+}
+
+#sec-7-sub-1{
+	top: 60%;
+	left: 10%;
+}
+
+.sec7-number{
+	position: absolute;
+	left: 40%;
+	top: -36%;
+	font-size: 2em !important;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.sec7-text{
+	position: absolute;
+	border-top: 1px solid red;
+	width: 100%;
+	top: 60%;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#sec-7-sub-2{
+	top: 60%;
+	left: 32%;
+}
+
+#sec-7-sub-3{
+	top: 60%;
+	left: 54%;
+}
+
+#sec-7-sub-4{
+	top: 60%;
+	left: 76%;
+}
 
